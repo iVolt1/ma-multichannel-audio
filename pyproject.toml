@@ -1,5 +1,5 @@
 [project]
-name = "community-provider-template"
+name = "multichannel-audio"
 version = "0.0.0"
 description = "A community provider for Music Assistant"
 license = "Apache-2.0"
@@ -125,6 +125,8 @@ convention = "pep257"
 [tool.ruff.lint.per-file-ignores]
 # command line scripts
 "scripts/**" = ["INP001", "T201"]
+# tests inspect the internals of the provider
+"tests/**" = ["SLF001"]
 
 [tool.ruff.lint.flake8-pytest-style]
 fixture-parentheses = false
