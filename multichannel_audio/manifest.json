@@ -8,7 +8,7 @@
     "@iVolt1"
   ],
   "requirements": [
-    "numpy==2.3.5"
+    "numpy>=2.3"
   ],
   "documentation": "https://github.com/iVolt1/ma-multichannel-audio#readme",
   "multi_instance": false
